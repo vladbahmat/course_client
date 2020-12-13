@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1127</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1131</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#d1d8e0;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QFrame" name="frame_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1131</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:#9980FA;
+color:#009432;
+text-align:center;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>10</y>
+        <width>391</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>36</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:#5758BB;</string>
+      </property>
+      <property name="text">
+       <string>Dynamo-Bank</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>80</y>
+       <width>461</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>imgonline-com-ua-Transparent-backgr-48tgqomMjDUEwY.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="admin_login">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>350</y>
+       <width>151</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Tahoma</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{background-color:#5758BB;
+color:white;
+border: 2px solid white;
+border-radius:10px;}
+QPushButton:pressed{background-color:darkgreen;
+color:white;
+border: 2px solid white;
+border-radius:10px;}</string>
+     </property>
+     <property name="text">
+      <string>Администратор</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="user_login">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>350</y>
+       <width>151</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Tahoma</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{background-color:#5758BB;
+color:white;
+border: 2px solid white;
+border-radius:10px;}
+QPushButton:pressed{background-color:darkgreen;
+color:white;
+border: 2px solid white;
+border-radius:10px;}</string>
+     </property>
+     <property name="text">
+      <string>Пользователь</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="register_2">
+     <property name="geometry">
+      <rect>
+       <x>710</x>
+       <y>350</y>
+       <width>151</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Tahoma</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{background-color:#5758BB;
+color:white;
+border: 2px solid white;
+border-radius:10px;}
+QPushButton:pressed{background-color:darkgreen;
+color:white;
+border: 2px solid white;
+border-radius:10px;}</string>
+     </property>
+     <property name="text">
+      <string>Регистрация</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="exit">
+     <property name="geometry">
+      <rect>
+       <x>940</x>
+       <y>350</y>
+       <width>151</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Tahoma</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{background-color:#5758BB;
+color:white;
+border: 2px solid white;
+border-radius:10px;}
+QPushButton:pressed{background-color:darkgreen;
+color:white;
+border: 2px solid white;
+border-radius:10px;}</string>
+     </property>
+     <property name="text">
+      <string>Выход</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="babk_button">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>350</y>
+       <width>151</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Tahoma</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{background-color:#5758BB;
+color:white;
+border: 2px solid white;
+border-radius:10px;}
+QPushButton:pressed{background-color:darkgreen;
+color:white;
+border: 2px solid white;
+border-radius:10px;}</string>
+     </property>
+     <property name="text">
+      <string>Управление</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
